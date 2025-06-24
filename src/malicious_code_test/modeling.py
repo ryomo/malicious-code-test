@@ -2,13 +2,13 @@ import torch
 import torch.nn as nn
 from transformers.modeling_utils import PreTrainedModel
 
-from .configuration import MinjaLMConfig
+from .configuration import MaliciousCodeTestConfig
 
 
-class MinjaLM(PreTrainedModel):
+class MaliciousCodeTest(PreTrainedModel):
     """Minimal GPT-style Transformer decoder model."""
 
-    config_class = MinjaLMConfig
+    config_class = MaliciousCodeTestConfig
 
     def __init__(self, config):
         super().__init__(config)

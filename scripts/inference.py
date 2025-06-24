@@ -4,7 +4,7 @@ from pathlib import Path
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-import minja_lm  # noqa: F401  # Import to register MinjaLM
+import malicious_code_test  # noqa: F401  # Import to register MaliciousCodeTest
 
 
 PROJECT_ROOT = Path(__file__).parents[1]

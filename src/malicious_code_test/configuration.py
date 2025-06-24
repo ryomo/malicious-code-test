@@ -1,8 +1,8 @@
 from transformers import PretrainedConfig
 
 
-class MinjaLMConfig(PretrainedConfig):
-    model_type = "minja-lm"
+class MaliciousCodeTestConfig(PretrainedConfig):
+    model_type = "malicious-code-test"
 
     def __init__(self, vocab_size=32000, n_embd=128, n_layer=2, n_head=2, block_size=16, **kwargs):
 

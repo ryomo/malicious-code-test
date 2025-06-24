@@ -1,10 +1,10 @@
 """
-Upload the trained MinjaLM model to Hugging Face Hub.
+Upload the trained model to Hugging Face Hub.
 
 Before running this script:
 1. Create an Access Token with `write` permissions on Hugging Face Hub.
 2. Login to Hugging Face: huggingface-cli login
-3. Make sure your model is trained and saved in src/minja_lm/
+3. Make sure your model is trained and saved in the `model` directory.
 """
 import os
 from pathlib import Path
@@ -13,7 +13,7 @@ from huggingface_hub import HfApi
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Import to register the model
-import minja_lm  # noqa: F401
+import malicious_code_test  # noqa: F401
 
 
 REPO_NAME = "ryomo/malicious-code-test"

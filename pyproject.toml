@@ -1,7 +1,7 @@
 [project]
-name = "minja-lm"
+name = "malicious-code-test"
 version = "0.1.0"
-description = "A minimal Japanese language model"
+description = ""
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

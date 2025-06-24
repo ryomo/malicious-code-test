@@ -1,10 +1,10 @@
 """
-Inference using the uploaded MinjaLM model from Hugging Face Hub.
+Inference using the uploaded model from Hugging Face Hub.
 """
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-REPO_NAME = "ryomo/minja-lm"
+REPO_NAME = "ryomo/malicious-code-test"
 
 
 def main():
