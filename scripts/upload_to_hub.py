@@ -16,7 +16,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import minja_lm  # noqa: F401
 
 
-REPO_NAME = "ryomo/minja-lm"
+REPO_NAME = "ryomo/malicious-code-test"
 PROJECT_ROOT = Path(__file__).parents[1]
 MODEL_DIR = str(PROJECT_ROOT / "model")
 
